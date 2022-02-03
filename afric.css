@@ -3,6 +3,10 @@
     background-color: black;
     box-sizing: border-box;
 }
+#all>h2{
+    text-align: center;
+    color: slateblue;
+}
 .header{
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -90,7 +94,7 @@
 #first>h3{
 
     font-size: 3em;
-    font-family: SansSerif;
+    67font-family: SansSerif;
     text-transform: capitalize;
     padding-top: 1em;
     text-decoration: underline;
@@ -270,7 +274,7 @@
         word-spacing: 2em;
         color: white;
     }
-    .header>p:hover{
+    .heder>p:hover{
 
         color: black;
     }
