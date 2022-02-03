@@ -133,7 +133,6 @@
     color: white;
 }
 .header>p:hover{
-    font-size: 1em;
     color: white;
 }
 .footer>img{
@@ -272,7 +271,7 @@
         color: white;
     }
     .header>p:hover{
-        font-size: 1;
+
         color: black;
     }
     .footer>img{
