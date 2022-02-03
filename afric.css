@@ -1,0 +1,266 @@
+#body{
+    margin: 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 3px double white ;
+
+}
+.link{
+    color: yellow;
+}
+.header>h1{
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+.header>a{
+padding-right: 8em;
+    font-size: 1em;
+}
+.header>a:hover{
+    color: white;
+    font-size: 1.2em;
+}
+.container{
+    margin: 0;
+}
+#code{
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+   font
+}
+.self{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#first>h2{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-style: italic;
+}
+#onclick{
+    font-size: 2em;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#first>h2:hover{
+    color: blue;
+    font-size: 3.2em;
+}
+#second{
+    padding: 2em;
+    padding-left: 6em!important;
+}
+#first>h3{
+    font-size: 3em;
+    font-family: SansSerif;
+    text-transform: capitalize;
+    padding-top: 1em;
+    text-decoration: underline;
+}
+.ol{
+    font-size: 2em;
+    padding: 3rem;
+    background-color: dimgrey;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 5rem;
+}
+#img{
+    /*border-radius: 50%;*/
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.ol{
+    font-size: 2em;
+    padding: 3rem;
+    background-color: dimgrey;
+    border-bottom-left-radius: 5rem;
+    border-top-left-radius: 5rem;
+}
+#second>h3{
+    font-size: 3em;
+    font-family: SansSerif;
+    text-transform: capitalize;
+    padding-top: 1em;
+    text-decoration: underline;
+}
+.footer{
+    margin: auto 500px;
+    margin-top: 100px!important;
+}
+@media screen and (min-width: 100px) and (max-width: 768px){
+    .self{
+        display: block;
+
+    }
+    .header>h1{
+        margin: 0;
+        font-size: 2em;
+        text-transform: uppercase;
+        padding-bottom: 6px;
+    }
+    .header>a{
+        padding-right: 1em;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    .link{
+        color: chartreuse;
+    }
+    #code{
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    #first>h2{
+        font-size: 1.5em;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    #onclick{
+        font-size: 1.5em;
+        font-style: italic;
+        text-transform: capitalize;
+        color: red;
+    }
+    #first>h2:hover{
+        color: blue;
+        font-size: 1.5em;
+    }
+    #first>h3{
+        text-align: center;
+        font-size: 3em;
+        font-family: SansSerif;
+        text-transform: uppercase;
+        padding-top: 1em;
+        text-decoration: underline;
+    }
+    .ol{
+        font-size: 1em;
+        padding: 3rem;
+        background-color: dimgrey;
+        border-radius: 1em;
+    }
+    #img{
+        border-radius: 1px;
+        width: 50%;
+        padding-left: 65px;
+        padding-top: 50px;
+    }
+    #second>img{
+        display: none;
+    }
+    .ol{
+        font-size: 1em;
+        padding: 3rem;
+        background-color: dimgrey;
+        border-radius: 1em;
+    }
+    #second>h3{
+        text-align: center;
+        font-size: 1.5em;
+        font-family: SansSerif;
+        text-transform: uppercase;
+        padding-top: 1em;
+        text-decoration: underline;
+    }
+    #second{
+        padding: 1em;
+        padding-left: 1em!important;
+    }
+    .footer{
+        display: none;
+    }
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .self{
+        display: block;
+
+    }
+    .header>h1{
+        margin: 0;
+        font-size: 2em;
+        text-transform: uppercase;
+        padding-bottom: 6px;
+    }
+    .header>a{
+        padding-right: 1em;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    .link{
+        color: chartreuse;
+    }
+    #code{
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    #first>h2{
+        font-size: 1.5em;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+    #onclick{
+        font-size: 1.5em;
+        font-style: italic;
+        text-transform: capitalize;
+        color: red;
+    }
+    #first>h2:hover{
+        color: blue;
+        font-size: 1.5em;
+    }
+    #first>h3{
+        text-align: center;
+        font-size: 3em;
+        font-family: SansSerif;
+        text-transform: uppercase;
+        padding-top: 1em;
+        text-decoration: underline;
+    }
+    .ol{
+        font-size: 2em;
+        padding: 3rem;
+        background-color: dimgrey;
+        border-radius: 1em;
+    }
+    #img{
+        border-radius: 1px;
+        width: 70%;
+        padding-left: 150px;
+        padding-top: 50px;
+        height: 50vh;
+    }
+    #second>img{
+        display: none;
+    }
+    .ol{
+        font-size: 2em;
+        padding: 3rem;
+        background-color: dimgrey;
+        border-radius: 1em;
+    }
+    #second>h3{
+        text-align: center;
+        font-size: 1.5em;
+        font-family: SansSerif;
+        text-transform: uppercase;
+        padding-top: 1em;
+        text-decoration: underline;
+    }
+    #second{
+        padding: 1em;
+        padding-left: 1em!important;
+    }
+    .footer{
+        display: none;
+    }
+
+}
