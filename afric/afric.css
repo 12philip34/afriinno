@@ -1,100 +1,44 @@
 #body{
-    background-color: white ;
     margin: 0;
-}
-#container{
-    background-color: rgba(106, 90, 205, 0.27);
-    margin: auto 34%;
-    text-align: center;
-    padding-bottom: 5%;
-    border-radius: 20px;
-}
-#header{
-font-size: 2em;
-    text-transform: uppercase;
-    padding-top: 5px;
-}
-#page{
-background-color: white;
-}
-.overlay .closebtn {
-    position: absolute;
-    top: 40px;
-    right: 30px;
-    font-size: 60px;
-}
-#label{
-font-size: 2em;
-    display: block;
-    padding: 1em;
-    text-transform: uppercase;
-}
-#input{
-    width: 60%;
-    height: 5vh;
-    /*text-transform: uppercase;*/
-    font-weight: bolder;
-    border-color: whitesmoke;
-    color: black;
+    background-color: black;
+    box-sizing: border-box;
 }
 
-#input-password{
-    width: 60%;
-    height: 5vh;
-    text-transform: uppercase;
-    font-weight: bolder;
-    border-color: whitesmoke;
-    color: black;
-}
-
-#button{
-    width: 25%;
-    height: 5vh;
-    margin-top: 10%;
-    text-transform: capitalize;
-    font-weight: bolder;
-    color: black;
-    background-color: rgba(106, 90, 205, 0.19);
-    border-radius: 30%;
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.22);
-}
-#myNav{
-    height: 100%;*/
-width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 2.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-}
 #all>h2{
     text-align: center;
     color: slateblue;
 }
 .header{
-    display: grid;
-    grid-template-columns: 3fr 2fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
     color: slateblue;
-    /*text-align: center;*/
-    border-bottom: 3px double white ;
+   border-bottom: 2px double rebeccapurple;
+    height: 3em;
 
+}
+#heading{
+    background: rgba(36, 36, 66, 0.82);
+    padding-right: 40em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.header>a{
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rebeccapurple;
+}
+.header>a:hover{
+    color: white;
+    background-color: rgba(36, 36, 66, 0.82);
+    padding: 5px;
+    border-bottom: 2px solid white;
 }
 .link{
     color: yellow;
-}
-.header>h1{
-    margin: 0;
-    font-size: 2em;
-    text-transform: uppercase;
-    padding-bottom:10px;
-    padding-left: 15px;
-    padding-top: 1em;
-}
-.header>p{
-    word-spacing: 2em;
-    font-size: 2em;
 }
 .container{
     margin: 0;
@@ -132,7 +76,7 @@ width: 0;
     text-align: center;
     font-size: 2em;
     text-transform: capitalize;
-    color: white;
+   color: white;
 }
 .self{
 
@@ -180,7 +124,7 @@ width: 0;
 .ol{
     font-size: 2em;
     padding: 3rem;
-    color: white;
+   color: white;
     border-bottom-left-radius: 5rem;
     border-top-left-radius: 5rem;
 }
@@ -193,12 +137,11 @@ width: 0;
     text-decoration: underline;
 }
 .footer{
-    background-color: slateblue;
+   background-color: slateblue;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     font-size: 1em;
     text-align: center;
-
     color: white;
 }
 .header>p:hover{
@@ -213,10 +156,10 @@ width: 0;
     width: 5%;
 }
 @media screen and (min-width: 100px) and (max-width: 768px){
-    .container{
-        display: block;
-        width: 100%;
-    }
+  .container{
+      display: block;
+      width: 100%;
+  }
     .header{
         background-color: black;
         color: slateblue;
@@ -237,9 +180,9 @@ width: 0;
         text-transform: uppercase;
         padding-bottom:5px;
     }
-    *{
-        margin: 0!important;
-    }
+ *{
+     margin: 0!important;
+ }
     .web{
         display: block;
         height: 10em;
@@ -351,8 +294,4 @@ width: 0;
     .footer>img:hover{
         width: 5%;
     }
-    #container{
-        background-color: slateblue;
-    }
 }
-/*rgba(176, 155, 155, 0.75)*/
